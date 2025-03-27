@@ -1,63 +1,46 @@
-/* Allgemeine Stile für die Webseite */
 body {
     font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
     margin: 0;
     padding: 0;
-    background-color: #f9f9f9;
 }
 
 header {
-    text-align: center;
-    padding: 20px;
-    background-color: #333;
+    background-color: #007BFF;
     color: white;
+    padding: 20px;
+    text-align: center;
 }
 
-header h1 {
+h1 {
     margin: 0;
-    font-size: 2.5em;
-}
-
-header p {
-    margin: 10px 0;
+    font-size: 2.5rem;
 }
 
 button {
-    background-color: #008CBA;
+    background-color: #28a745;
     color: white;
     border: none;
     padding: 10px 20px;
     cursor: pointer;
-    font-size: 1em;
 }
 
 button:hover {
-    background-color: #005f73;
+    background-color: #218838;
 }
 
-section#about, section#products {
+section {
     padding: 20px;
-    text-align: center;
-}
-
-/* Coin-Logo Styling */
-.coin-logo {
-    margin-top: 20px;
-}
-
-.coin-image {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 footer {
-    text-align: center;
-    padding: 10px;
     background-color: #333;
     color: white;
+    text-align: center;
+    padding: 10px;
     position: absolute;
     width: 100%;
     bottom: 0;
 }
+  
